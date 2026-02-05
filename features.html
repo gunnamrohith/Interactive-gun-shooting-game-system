@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - War of Waves</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚔️</span>
+                <span class="logo-text">War of Waves</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gameplay.html">Gameplay</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Game Features</h1>
+        <p>Discover what makes War of Waves an exciting gaming experience</p>
+    </section>
+
+    <!-- Main Features -->
+    <section class="main-features">
+        <div class="container">
+            <div class="feature-showcase">
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <span class="feature-badge">Core Feature</span>
+                        <h2>3D Graphics Engine</h2>
+                        <p>War of Waves is powered by <strong>jMonkeyEngine 3</strong>, a powerful open-source game engine for Java developers. This provides:</p>
+                        <ul>
+                            <li>Real-time 3D rendering with OpenGL</li>
+                            <li>Dynamic lighting and shadows</li>
+                            <li>Smooth 60 FPS gameplay</li>
+                            <li>Advanced material and shader system</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="visual-box engine">
+                            <span class="visual-icon">🎮</span>
+                            <span class="visual-text">jMonkeyEngine 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-item reverse">
+                    <div class="feature-content">
+                        <span class="feature-badge">Gameplay</span>
+                        <h2>First-Person Shooter</h2>
+                        <p>Experience immersive first-person combat with:</p>
+                        <ul>
+                            <li>Precise mouse-controlled aiming</li>
+                            <li>Smooth camera movement</li>
+                            <li>Scope zoom functionality</li>
+                            <li>Realistic recoil and feedback</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="visual-box fps">
+                            <span class="visual-icon">🔫</span>
+                            <span class="visual-text">FPS Mechanics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <span class="feature-badge">Environment</span>
+                        <h2>Urban Battlefield</h2>
+                        <p>Fight in a detailed 3D cityscape featuring:</p>
+                        <ul>
+                            <li>Multiple buildings for cover</li>
+                            <li>Boundary walls defining the arena</li>
+                            <li>Strategic positioning opportunities</li>
+                            <li>Day/night sky backgrounds</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="visual-box city">
+                            <span class="visual-icon">🏙️</span>
+                            <span class="visual-text">3D City Map</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-item reverse">
+                    <div class="feature-content">
+                        <span class="feature-badge">Combat</span>
+                        <h2>Wave-Based Challenge</h2>
+                        <p>Test your skills against endless waves of enemies:</p>
+                        <ul>
+                            <li>Progressive difficulty scaling</li>
+                            <li>Increasing enemy count per wave</li>
+                            <li>Faster and stronger enemies</li>
+                            <li>Score multipliers for survival</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="visual-box waves">
+                            <span class="visual-icon">🌊</span>
+                            <span class="visual-text">Wave System</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="tech-features">
+        <div class="container">
+            <h2 class="section-title">Technical Features</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">💻</div>
+                    <h3>Cross-Platform</h3>
+                    <p>Built with Java, runs on Windows, macOS, and Linux without modification.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">⚡</div>
+                    <h3>Optimized Performance</h3>
+                    <p>Efficient game loop and rendering pipeline for smooth gameplay.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🎨</div>
+                    <h3>Visual Effects</h3>
+                    <p>Blood effects, damage overlays, and camera shake for immersive feedback.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🔧</div>
+                    <h3>Gradle Build</h3>
+                    <p>Modern build system for easy compilation and dependency management.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📦</div>
+                    <h3>Modular Code</h3>
+                    <p>Clean object-oriented architecture with separate classes for each component.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🎯</div>
+                    <h3>Collision Detection</h3>
+                    <p>Accurate hit detection for bullets, enemies, and environment boundaries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Code Architecture -->
+    <section class="architecture-section">
+        <div class="container">
+            <h2 class="section-title">Code Architecture</h2>
+            <div class="architecture-diagram">
+                <div class="arch-node main">
+                    <span class="node-icon">🚀</span>
+                    <span class="node-name">Main.java</span>
+                    <span class="node-desc">Application Entry Point</span>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-node game">
+                    <span class="node-icon">🎮</span>
+                    <span class="node-name">GameApp.java</span>
+                    <span class="node-desc">Main Game Loop & Rendering</span>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-components">
+                    <div class="arch-node component">
+                        <span class="node-icon">🧑</span>
+                        <span class="node-name">Player.java</span>
+                        <span class="node-desc">Player Logic</span>
+                    </div>
+                    <div class="arch-node component">
+                        <span class="node-icon">👾</span>
+                        <span class="node-name">Enemy.java</span>
+                        <span class="node-desc">Enemy AI</span>
+                    </div>
+                    <div class="arch-node component">
+                        <span class="node-icon">🔫</span>
+                        <span class="node-name">Gun.java</span>
+                        <span class="node-desc">Weapon System</span>
+                    </div>
+                    <div class="arch-node component">
+                        <span class="node-icon">💫</span>
+                        <span class="node-name">Bullet.java</span>
+                        <span class="node-desc">Projectiles</span>
+                    </div>
+                    <div class="arch-node component">
+                        <span class="node-icon">🌊</span>
+                        <span class="node-name">WaveManager.java</span>
+                        <span class="node-desc">Wave Control</span>
+                    </div>
+                    <div class="arch-node component">
+                        <span class="node-icon">💥</span>
+                        <span class="node-name">BloodEffect.java</span>
+                        <span class="node-desc">Visual Effects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison-section">
+        <div class="container">
+            <h2 class="section-title">Why War of Waves?</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>War of Waves</th>
+                        <th>Other Games</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Open Source</td>
+                        <td class="check">✅</td>
+                        <td class="cross">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Cross Platform</td>
+                        <td class="check">✅</td>
+                        <td class="partial">⚠️</td>
+                    </tr>
+                    <tr>
+                        <td>No Installation Required</td>
+                        <td class="check">✅</td>
+                        <td class="cross">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Educational Code</td>
+                        <td class="check">✅</td>
+                        <td class="cross">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Lightweight</td>
+                        <td class="check">✅</td>
+                        <td class="cross">❌</td>
+                    </tr>
+                    <tr>
+                        <td>Free to Play</td>
+                        <td class="check">✅</td>
+                        <td class="partial">⚠️</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚔️</span>
+                    <span class="logo-text">War of Waves</span>
+                    <p>A 3D wave-based shooter game built with Java and jMonkeyEngine.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gameplay.html">Gameplay</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="download.html">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-tech">
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        <li>Java 11+</li>
+                        <li>jMonkeyEngine 3</li>
+                        <li>Gradle Build System</li>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 War of Waves. College Web Development Project.</p>
+                <p>Created by Rohith G</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

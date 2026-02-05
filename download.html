@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download - War of Waves</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚔️</span>
+                <span class="logo-text">War of Waves</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gameplay.html">Gameplay</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="download.html" class="active">Download</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header download-header">
+        <h1>Download War of Waves</h1>
+        <p>Get ready to experience the ultimate wave survival challenge</p>
+    </section>
+
+    <!-- System Requirements -->
+    <section class="requirements-section">
+        <div class="container">
+            <h2 class="section-title">System Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-card minimum">
+                    <h3>Minimum Requirements</h3>
+                    <ul>
+                        <li><span class="req-label">OS:</span> Windows 7 / macOS 10.12 / Linux</li>
+                        <li><span class="req-label">Processor:</span> Intel Core i3 or equivalent</li>
+                        <li><span class="req-label">Memory:</span> 4 GB RAM</li>
+                        <li><span class="req-label">Graphics:</span> OpenGL 2.0 compatible</li>
+                        <li><span class="req-label">Java:</span> JDK 11 or higher</li>
+                        <li><span class="req-label">Storage:</span> 200 MB available space</li>
+                    </ul>
+                </div>
+                <div class="requirement-card recommended">
+                    <h3>Recommended Requirements</h3>
+                    <ul>
+                        <li><span class="req-label">OS:</span> Windows 10 / macOS 12 / Ubuntu 20.04</li>
+                        <li><span class="req-label">Processor:</span> Intel Core i5 or better</li>
+                        <li><span class="req-label">Memory:</span> 8 GB RAM</li>
+                        <li><span class="req-label">Graphics:</span> OpenGL 3.3+ compatible GPU</li>
+                        <li><span class="req-label">Java:</span> JDK 17 or higher</li>
+                        <li><span class="req-label">Storage:</span> 500 MB available space</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Options -->
+    <section class="download-section">
+        <div class="container">
+            <h2 class="section-title">Download Options</h2>
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">🖥️</div>
+                    <h3>Windows</h3>
+                    <p>Download for Windows 7, 8, 10, 11</p>
+                    <div class="download-info">
+                        <span>ZIP Archive</span>
+                        <span>~50 MB</span>
+                    </div>
+                    <a href="../build/distributions/WarOfWaves.zip" class="btn btn-download" download>
+                        <span>⬇️</span> Download for Windows
+                    </a>
+                </div>
+                <div class="download-card">
+                    <div class="download-icon">🍎</div>
+                    <h3>macOS</h3>
+                    <p>Download for macOS 10.12+</p>
+                    <div class="download-info">
+                        <span>TAR Archive</span>
+                        <span>~50 MB</span>
+                    </div>
+                    <a href="../build/distributions/WarOfWaves.tar" class="btn btn-download" download>
+                        <span>⬇️</span> Download for macOS
+                    </a>
+                </div>
+                <div class="download-card">
+                    <div class="download-icon">🐧</div>
+                    <h3>Linux</h3>
+                    <p>Download for Ubuntu, Fedora, etc.</p>
+                    <div class="download-info">
+                        <span>TAR Archive</span>
+                        <span>~50 MB</span>
+                    </div>
+                    <a href="../build/distributions/WarOfWaves.tar" class="btn btn-download" download>
+                        <span>⬇️</span> Download for Linux
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section class="installation-section">
+        <div class="container">
+            <h2 class="section-title">Installation Guide</h2>
+            <div class="installation-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Install Java</h3>
+                        <p>Make sure you have Java JDK 11 or higher installed on your system.</p>
+                        <div class="code-block">
+                            <code>java -version</code>
+                        </div>
+                        <p class="step-note">If not installed, download from <a href="https://adoptium.net/" target="_blank">adoptium.net</a></p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Download the Game</h3>
+                        <p>Download the appropriate archive for your operating system from the options above.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Extract the Archive</h3>
+                        <p>Extract the downloaded ZIP or TAR file to your preferred location.</p>
+                        <div class="code-block">
+                            <code>unzip WarOfWaves.zip</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Run the Game</h3>
+                        <p>Navigate to the extracted folder and run the game:</p>
+                        <div class="os-tabs">
+                            <div class="os-tab active" onclick="showTab('windows')">Windows</div>
+                            <div class="os-tab" onclick="showTab('unix')">macOS/Linux</div>
+                        </div>
+                        <div id="windows" class="code-block os-code active">
+                            <code>WarOfWaves.bat</code>
+                        </div>
+                        <div id="unix" class="code-block os-code">
+                            <code>./WarOfWaves</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Run from Source -->
+    <section class="source-section">
+        <div class="container">
+            <h2 class="section-title">Run from Source Code</h2>
+            <p class="section-subtitle">For developers who want to build and run from source</p>
+            <div class="source-steps">
+                <div class="source-step">
+                    <h3>1. Clone the Repository</h3>
+                    <div class="code-block">
+                        <code>git clone https://github.com/yourusername/WarOfWaves.git</code>
+                    </div>
+                </div>
+                <div class="source-step">
+                    <h3>2. Navigate to Project</h3>
+                    <div class="code-block">
+                        <code>cd WarOfWaves</code>
+                    </div>
+                </div>
+                <div class="source-step">
+                    <h3>3. Build and Run</h3>
+                    <div class="code-block">
+                        <code>./gradlew run</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting -->
+    <section class="troubleshooting-section">
+        <div class="container">
+            <h2 class="section-title">Troubleshooting</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Game won't start - "Java not found" error</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Make sure Java is installed and added to your system PATH. You can verify by running <code>java -version</code> in your terminal. If not found, download and install JDK from adoptium.net.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Graphics issues or black screen</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Update your graphics drivers to the latest version. Make sure your GPU supports OpenGL 2.0 or higher. Try running the game with software rendering if issues persist.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Game runs slowly / low FPS</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Close other applications to free up memory. Make sure you meet the minimum system requirements. Update your Java installation to the latest version for better performance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Permission denied on macOS/Linux</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Make the script executable by running: <code>chmod +x WarOfWaves</code> in the terminal, then try running again.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚔️</span>
+                    <span class="logo-text">War of Waves</span>
+                    <p>A 3D wave-based shooter game built with Java and jMonkeyEngine.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gameplay.html">Gameplay</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="download.html">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-tech">
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        <li>Java 11+</li>
+                        <li>jMonkeyEngine 3</li>
+                        <li>Gradle Build System</li>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 War of Waves. College Web Development Project.</p>
+                <p>Created by Rohith G</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

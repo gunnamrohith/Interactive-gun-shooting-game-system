@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay - War of Waves</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚔️</span>
+                <span class="logo-text">War of Waves</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gameplay.html" class="active">Gameplay</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>How to Play</h1>
+        <p>Master the controls and become the ultimate survivor</p>
+    </section>
+
+    <!-- Controls Section -->
+    <section class="controls-section">
+        <div class="container">
+            <h2 class="section-title">Game Controls</h2>
+            <div class="controls-grid">
+                <div class="control-card">
+                    <div class="key-display">
+                        <span class="key">W</span>
+                        <span class="key">A</span>
+                        <span class="key">S</span>
+                        <span class="key">D</span>
+                    </div>
+                    <h3>Movement</h3>
+                    <p>Use WASD keys to move your character around the battlefield. Navigate through buildings and find strategic positions.</p>
+                </div>
+                <div class="control-card">
+                    <div class="key-display mouse">
+                        <span class="mouse-icon">🖱️</span>
+                    </div>
+                    <h3>Look Around</h3>
+                    <p>Move your mouse to look around the 3D environment. Aim precisely at enemies to take them down.</p>
+                </div>
+                <div class="control-card">
+                    <div class="key-display">
+                        <span class="key large">Left Click</span>
+                    </div>
+                    <h3>Shoot</h3>
+                    <p>Click the left mouse button to fire your weapon. Watch your cooldown between shots!</p>
+                </div>
+                <div class="control-card">
+                    <div class="key-display">
+                        <span class="key">R</span>
+                    </div>
+                    <h3>Restart</h3>
+                    <p>Press R to restart the game after game over. Try to beat your previous high score!</p>
+                </div>
+                <div class="control-card">
+                    <div class="key-display">
+                        <span class="key">ESC</span>
+                    </div>
+                    <h3>Exit Game</h3>
+                    <p>Press ESC to exit the game at any time. Your progress will not be saved.</p>
+                </div>
+                <div class="control-card">
+                    <div class="key-display">
+                        <span class="key large">Right Click</span>
+                    </div>
+                    <h3>Scope / Aim</h3>
+                    <p>Right-click to use your weapon's scope for more precise aiming at distant enemies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Tips -->
+    <section class="tips-section">
+        <div class="container">
+            <h2 class="section-title">Pro Tips</h2>
+            <div class="tips-container">
+                <div class="tip-card">
+                    <span class="tip-number">01</span>
+                    <h3>Keep Moving</h3>
+                    <p>Never stay in one place for too long. Enemies will surround you if you remain stationary. Use the urban environment to your advantage.</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-number">02</span>
+                    <h3>Use Cover</h3>
+                    <p>The buildings in the game world provide excellent cover. Duck behind walls and corners to avoid enemy fire while you reload or recover.</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-number">03</span>
+                    <h3>Aim for Accuracy</h3>
+                    <p>Each shot counts. Take your time to aim properly rather than spraying bullets everywhere. Headshots do more damage!</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-number">04</span>
+                    <h3>Watch Your Health</h3>
+                    <p>Your health doesn't regenerate automatically. Be careful about taking unnecessary damage, especially in later waves.</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-number">05</span>
+                    <h3>Learn Enemy Patterns</h3>
+                    <p>Enemies have predictable movement patterns. Learn how they approach and use this knowledge to set up ambushes.</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-number">06</span>
+                    <h3>Manage Cooldowns</h3>
+                    <p>Your weapon has a shooting cooldown. Time your shots carefully and don't spam the fire button or you'll waste opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave System -->
+    <section class="wave-section">
+        <div class="container">
+            <h2 class="section-title">Wave System</h2>
+            <div class="wave-info">
+                <div class="wave-card">
+                    <div class="wave-header early">
+                        <span class="wave-icon">🌊</span>
+                        <h3>Early Waves (1-10)</h3>
+                    </div>
+                    <p>The beginning waves are relatively easy. Use this time to get familiar with the controls and the map layout. Enemies are slower and deal less damage.</p>
+                    <ul>
+                        <li>Few enemies per wave</li>
+                        <li>Slow enemy movement</li>
+                        <li>Low damage output</li>
+                    </ul>
+                </div>
+                <div class="wave-card">
+                    <div class="wave-header mid">
+                        <span class="wave-icon">🌊🌊</span>
+                        <h3>Mid Waves (11-30)</h3>
+                    </div>
+                    <p>The challenge increases significantly. More enemies spawn with each wave, and they become faster and more aggressive. Stay alert!</p>
+                    <ul>
+                        <li>More enemies per wave</li>
+                        <li>Faster enemy movement</li>
+                        <li>Increased damage</li>
+                    </ul>
+                </div>
+                <div class="wave-card">
+                    <div class="wave-header late">
+                        <span class="wave-icon">🌊🌊🌊</span>
+                        <h3>Late Waves (30+)</h3>
+                    </div>
+                    <p>Only the most skilled players reach these waves. Enemies are relentless, and survival becomes extremely difficult. Good luck!</p>
+                    <ul>
+                        <li>Massive enemy hordes</li>
+                        <li>Maximum aggression</li>
+                        <li>Elite enemies appear</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HUD Explanation -->
+    <section class="hud-section">
+        <div class="container">
+            <h2 class="section-title">Understanding the HUD</h2>
+            <div class="hud-diagram">
+                <div class="hud-box">
+                    <div class="hud-element health">
+                        <span class="hud-icon">❤️</span>
+                        <span class="hud-label">Health: 100</span>
+                    </div>
+                    <p>Shows your current health points. When it reaches 0, the game is over.</p>
+                </div>
+                <div class="hud-box">
+                    <div class="hud-element wave">
+                        <span class="hud-icon">🌊</span>
+                        <span class="hud-label">Wave: 1</span>
+                    </div>
+                    <p>Displays the current wave number. Each wave brings more challenging enemies.</p>
+                </div>
+                <div class="hud-box">
+                    <div class="hud-element score">
+                        <span class="hud-icon">🏆</span>
+                        <span class="hud-label">Score: 0</span>
+                    </div>
+                    <p>Your current score. Earn points by eliminating enemies and surviving waves.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚔️</span>
+                    <span class="logo-text">War of Waves</span>
+                    <p>A 3D wave-based shooter game built with Java and jMonkeyEngine.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gameplay.html">Gameplay</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="download.html">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-tech">
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        <li>Java 11+</li>
+                        <li>jMonkeyEngine 3</li>
+                        <li>Gradle Build System</li>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 War of Waves. College Web Development Project.</p>
+                <p>Created by Rohith G</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

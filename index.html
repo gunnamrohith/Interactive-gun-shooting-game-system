@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War of Waves - 3D Wave Shooter Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚔️</span>
+                <span class="logo-text">War of Waves</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gameplay.html">Gameplay</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-war">WAR</span>
+                <span class="title-of">OF</span>
+                <span class="title-waves">WAVES</span>
+            </h1>
+            <p class="hero-subtitle">Survive the endless waves. Become the ultimate warrior.</p>
+            <div class="hero-buttons">
+                <a href="download.html" class="btn btn-primary">
+                    <span class="btn-icon">🎮</span>
+                    Play Now
+                </a>
+                <a href="gameplay.html" class="btn btn-secondary">
+                    <span class="btn-icon">📖</span>
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Game Overview -->
+    <section class="overview">
+        <div class="container">
+            <h2 class="section-title">What is War of Waves?</h2>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <p>War of Waves is an intense <strong>3D first-person wave-based shooter game</strong> built using Java and the powerful jMonkeyEngine 3D game engine.</p>
+                    <p>Face increasingly difficult waves of enemies as you fight for survival in a dynamic urban environment. With realistic physics, immersive graphics, and challenging gameplay, War of Waves delivers an adrenaline-pumping gaming experience.</p>
+                    <ul class="feature-list">
+                        <li>🎯 First-person shooter mechanics</li>
+                        <li>🌊 Progressive wave-based difficulty</li>
+                        <li>🏙️ Urban cityscape environment</li>
+                        <li>💥 Dynamic blood effects and damage feedback</li>
+                    </ul>
+                </div>
+                <div class="overview-image">
+                    <div class="game-preview">
+                        <div class="preview-placeholder">
+                            <span class="preview-icon">🎮</span>
+                            <span class="preview-text">Game Preview</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Player Health</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🌊</div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Waves to Survive</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👾</div>
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Enemies to Defeat</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Weapon Types</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Features -->
+    <section class="quick-features">
+        <div class="container">
+            <h2 class="section-title">Game Highlights</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Smooth Controls</h3>
+                    <p>Intuitive WASD movement with precise mouse aiming for the perfect FPS experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏙️</div>
+                    <h3>3D Environment</h3>
+                    <p>Explore a detailed urban cityscape with buildings and strategic cover positions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👾</div>
+                    <h3>Wave System</h3>
+                    <p>Progressive difficulty with increasingly challenging enemy waves to test your skills.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔫</div>
+                    <h3>Combat System</h3>
+                    <p>Realistic shooting mechanics with scope aiming and cooldown management.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💉</div>
+                    <h3>Health System</h3>
+                    <p>Manage your health wisely as you take damage from enemies and fight for survival.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Score Tracking</h3>
+                    <p>Compete for high scores as you eliminate enemies and survive waves.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Join the Battle?</h2>
+            <p>Download War of Waves now and prove you have what it takes to survive!</p>
+            <a href="download.html" class="btn btn-primary btn-large">Download Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚔️</span>
+                    <span class="logo-text">War of Waves</span>
+                    <p>A 3D wave-based shooter game built with Java and jMonkeyEngine.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gameplay.html">Gameplay</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="download.html">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-tech">
+                    <h4>Technologies Used</h4>
+                    <ul>
+                        <li>Java 11+</li>
+                        <li>jMonkeyEngine 3</li>
+                        <li>Gradle Build System</li>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 War of Waves. College Web Development Project.</p>
+                <p>Created by Rohith G</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
