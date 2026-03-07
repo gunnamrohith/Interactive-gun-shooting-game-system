@@ -1,58 +1,28 @@
-# War of Waves Battle Arena
+# FWD - Frontend Website
 
-A college project that combines **Java game development** with a **modern multi‑page website** to showcase the game.  
-This repository is organized into two clear parts:
+This folder contains the static website for **War of Waves Battle Arena**.
 
-## 📁 Project Structure
-- **fwd/** — Frontend website (HTML, CSS, JavaScript)
-- **dsa/** — Java game source code (core gameplay logic)
-  --------------------------------------------------------------------------------------------------------------------------
+## What is included
+- `index.html` - Landing page
+- `about.html` - Project and developer details
+- `features.html` - Game feature highlights
+- `gameplay.html` - Gameplay explanation
+- `download.html` - Download instructions
+- `css/style.css` - Styling and responsive layout
+- `js/main.js` - UI interactivity and animations
+- `downloads/` - Downloadable game packages referenced by the site
 
-## 🎮 About the Game (Java)
-**War of Waves Battle Arena** is a 3D wave-based shooter built using Java and jMonkeyEngine.  
-The game challenges players to survive increasing enemy waves in a city-like environment.
+## Tech perspective (HTML/CSS/JS)
+This part demonstrates core frontend development:
+- Semantic multi-page HTML structure
+- Reusable styling with CSS for layout, components, and responsive behavior
+- JavaScript for navigation, interactivity, and small UI effects
 
-Key concepts used:
-- Object‑Oriented Programming (player, enemies, bullets, weapons)
-- Wave management & spawning logic
-- Real‑time updates and game loop design
-- Modular Java class design
+## How to run locally
+Use the packaged zip so all required files load correctly.
 
----
+1. Download `fwd-website.zip` from this folder.
+2. Extract the zip (keep the folder structure).
+3. Open `index.html` from the extracted folder in a browser.
 
-##  About the Website (HTML/CSS/JS)
-The website is a multi‑page static site created to present the game project for college evaluation.
-
-Included pages:
-- Home
-- Gameplay
-- Features
-- Download
-- About
-
-Frontend highlights:
-- Responsive layout
-- Clean UI sections and cards
-- Animated counters and scroll effects
-- Navigation and interactivity with JavaScript
-
----
-
-## ▶️ How to Run (Website)
-Go to the **fwd** folder and use the packaged zip:
-
-1. Download `fwd-website.zip`
-2. Extract it
-3. Open `index.html` from the extracted folder
-
----
-
-## Purpose
-This project demonstrates:
-- Java OOP and game logic design
-- Frontend development skills
-- A complete software + presentation workflow for a college project
-
----
-
-**Created by:** Rohith G  
+If only `index.html` is downloaded by itself, the page appears plain because CSS/JS files are missing.
