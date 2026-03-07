@@ -19,16 +19,10 @@ This part demonstrates core frontend development:
 - JavaScript for navigation, interactivity, and small UI effects
 
 ## How to run locally
-Do not download only `index.html`.
+Use the packaged zip so all required files load correctly.
 
-This website uses external files:
-- `css/style.css`
-- `js/main.js`
-- linked pages (`about.html`, `features.html`, etc.)
+1. Download `fwd-website.zip` from this folder.
+2. Extract the zip (keep the folder structure).
+3. Open `index.html` from the extracted folder in a browser.
 
-If only `index.html` is downloaded, the page appears plain (white background with links).
-
-Use one of these methods:
-1. Download the full `fwd` folder (keep folder structure unchanged), then open `fwd/index.html`.
-2. Download `fwd-website.zip`, extract it, then open `index.html` from the extracted folder.
-3. Run from GitHub Pages link (if enabled) for the exact hosted version.
+If only `index.html` is downloaded by itself, the page appears plain because CSS/JS files are missing.
